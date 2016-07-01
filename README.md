@@ -1,6 +1,6 @@
 # Product Page Website
 
-#### A website for displaying an image with description and order form. July 1, 2016
+#### A website for displaying a product with description and order form. July 1, 2016
 
 #### By Maarja Laineste
 
