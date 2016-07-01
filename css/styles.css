@@ -64,7 +64,7 @@ ul {
   left: 134px;
 }
 
-#to-cart {
+#view-items {
   position: absolute;
   top: 450px;
   left: 978px;
@@ -74,6 +74,7 @@ ul {
   background-color: #bf955a;
   color: white;
   border: none;
+  outline: none;
 }
 
 .other-products {
@@ -103,6 +104,7 @@ form {
 
 input:focus {
   border: 2px solid tomato;
+  outline: none;
 }
 
 input {
