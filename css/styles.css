@@ -15,10 +15,8 @@ body {
 
 .wrap {
   width: 1200px;
-  height: 1500px;
   margin-left: auto;
   margin-right: auto;
-  /*border: 2px solid tomato;*/
 }
 
 .header {
@@ -56,24 +54,24 @@ body {
         transform: rotate(+1.7deg);
 }
 
-.item img {
-  width: 400px;
-  border-radius: 10px;
-  box-shadow: 0 2px 0 #dfe1e2;
+h1 {
+  text-align: center;
+  text-transform: uppercase;
 }
 
-
 .item {
-  width: 400px;
+  width: 500px;
   margin-left: auto;
   margin-right: auto;
   padding: 25px;
+  margin-bottom: 50px;
 }
 
-h3 {
-  text-align: center;
-  text-transform: uppercase;
-  /*border: 2px solid hotpink;*/
+.item img {
+  width: 400px;
+  margin-left: 22px;
+  border-radius: 10px;
+  box-shadow: 0 2px 0 #dfe1e2;
 }
 
 ul {
@@ -81,45 +79,8 @@ ul {
   font-size: 24px;
   margin: 0;
   position: absolute;
-  top: 400px;
-  left: 95px;
-}
-
-#view-items {
-  position: absolute;
-  top: 430px;
-  left: 960px;
-}
-
-.other-products {
-  width: 700px;
-  height: 600px;
-}
-
-.similar-item {
-  float: left;
-  padding-left: 15px;
-  /*border: 2px solid hotpink;*/
-}
-
-.similar-item img {
-  width: 190px;
-  height: 190px;
-  /*float: left;*/
-  margin: 10px;
-  border-radius: 10px;
-
-  box-shadow: 0 2px 0 #dfe1e2;
-}
-
-form {
-  text-transform: uppercase;
-  width: 400px;
-  position: absolute;
-  top: 722px;
-  left: 749px;
-  /*border: 2px solid tomato;*/
-  padding-left: 20px;
+  top: 470px;
+  left: 73px;
 }
 
 span {
@@ -128,20 +89,43 @@ span {
 
 .social-media {
   position: absolute;
-  top: 585px;
-  left: 875px;
+  top: 660px;
+  left: 845px;
 }
 
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
 
+.other-products {
+  width: 700px;
+}
 
+.similar-item {
+  float: left;
+  padding-left: 15px;
+}
 
+.similar-item img {
+  width: 190px;
+  height: 190px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 0 #dfe1e2;
+}
 
-input:focus {
-  border: 2px solid #525174;
-  outline: none;
+form {
+  text-transform: uppercase;
+  width: 400px;
+  position: absolute;
+  top: 834px;
+  left: 753px;
+  padding-left: 20px;
 }
 
 input {
+  font-size: 16px;
   display: block;
   width: 250px;
   height: 40px;
@@ -152,11 +136,12 @@ input {
   margin-bottom: 10px;
 }
 
-#order {
-  margin-top: 10px;
+input:focus {
+  border: 2px solid #525174;
+  outline: none;
 }
 
-button {
+#order {
   font-size: 16px;
   text-transform: uppercase;
   width: 180px;
@@ -166,8 +151,10 @@ button {
   color: white;
   border: none;
   outline: none;
+  margin-top: 10px;
 }
 
-button:hover {
+#order:hover {
   background-color: #525174;
+  font-weight: bolder;
 }
