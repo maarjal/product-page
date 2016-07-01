@@ -29,6 +29,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 10px;
+  box-shadow: 0 2px 0 #dfe1e2;
 }
 
 .header:after {
@@ -58,7 +59,9 @@ body {
 .item img {
   width: 400px;
   border-radius: 10px;
+  box-shadow: 0 2px 0 #dfe1e2;
 }
+
 
 .item {
   width: 400px;
@@ -84,12 +87,12 @@ ul {
 
 #view-items {
   position: absolute;
-  top: 450px;
+  top: 430px;
   left: 960px;
 }
 
 .other-products {
-  width: 600px;
+  width: 700px;
   height: 600px;
   /*border: 2px solid tomato;*/
   padding-left: 10px;
@@ -99,16 +102,17 @@ ul {
   width: 190px;
   height: 190px;
   float: left;
-  padding: 5px;
+  margin: 10px;
   border-radius: 10px;
-  margin: auto;
+
+  box-shadow: 0 2px 0 #dfe1e2;
 }
 
 form {
   text-transform: uppercase;
   width: 400px;
   position: absolute;
-  top: 712px;
+  top: 720px;
   left: 749px;
   /*border: 2px solid tomato;*/
   padding-left: 20px;
