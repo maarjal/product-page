@@ -71,7 +71,7 @@ ul {
   width: 170px;
   height: 50px;
   border-radius: 15px;
-  background-color: tomato;
+  background-color: #bf955a;
   color: white;
   border: none;
 }
@@ -95,21 +95,33 @@ ul {
 form {
   width: 400px;
   position: absolute;
-  top: 600px;
-  left: 500px;
+  top: 656px;
+  left: 703px;
   border: 2px solid tomato;
-  /*margin-left: auto;
-  margin-right: auto;*/
   padding-left: 20px;
+}
+
+input:focus {
+  border: 2px solid tomato;
 }
 
 input {
   display: block;
-  width: 200px;
-  height: 30px;
-
+  width: 250px;
+  height: 40px;
+  border-radius: 15px;
+  border: 1px solid #bf955a;
+  background-color: #f6f5f3;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-label {
-  margin: 10px;
+#order {
+  margin-top: 10px;
+  width: 170px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #bf955a;
+  color: white;
+  border: none;
 }
