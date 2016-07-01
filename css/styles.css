@@ -6,6 +6,13 @@
             box-sizing: border-box;
 }
 
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two|Poppins:400,600);
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #6D6875;
+}
+
 .wrap {
   width: 1200px;
   height: 1500px;
@@ -21,7 +28,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .header:after {
@@ -41,7 +48,7 @@
 
 .item img {
   width: 400px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .item {
@@ -58,23 +65,18 @@ h3 {
 }
 
 ul {
+  font-family: 'Lobster Two', cursive;
+  font-size: 24px;
   margin: 0;
   position: absolute;
-  top: 372px;
-  left: 134px;
+  top: 400px;
+  left: 95px;
 }
 
 #view-items {
   position: absolute;
   top: 450px;
-  left: 978px;
-  width: 170px;
-  height: 50px;
-  border-radius: 15px;
-  background-color: #bf955a;
-  color: white;
-  border: none;
-  outline: none;
+  left: 960px;
 }
 
 .other-products {
@@ -89,11 +91,12 @@ ul {
   height: 190px;
   float: left;
   padding: 5px;
-  border-radius: 15px;
+  border-radius: 10px;
   margin: auto;
 }
 
 form {
+  text-transform: uppercase;
   width: 400px;
   position: absolute;
   top: 656px;
@@ -103,7 +106,7 @@ form {
 }
 
 input:focus {
-  border: 2px solid tomato;
+  border: 2px solid #525174;
   outline: none;
 }
 
@@ -111,7 +114,7 @@ input {
   display: block;
   width: 250px;
   height: 40px;
-  border-radius: 15px;
+  border-radius: 10px;
   border: 1px solid #bf955a;
   background-color: #f6f5f3;
   margin-top: 10px;
@@ -120,10 +123,20 @@ input {
 
 #order {
   margin-top: 10px;
-  width: 170px;
+}
+
+button {
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 180px;
   height: 50px;
-  border-radius: 15px;
+  border-radius: 10px;
   background-color: #bf955a;
   color: white;
   border: none;
+  outline: none;
+}
+
+button:hover {
+  background-color: #525174;
 }
