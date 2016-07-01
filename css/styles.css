@@ -64,12 +64,16 @@ ul {
   left: 134px;
 }
 
-div {
-  margin: 0;
-}
-
-body {
-  margin: 0;
+#to-cart {
+  position: absolute;
+  top: 450px;
+  left: 978px;
+  width: 170px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: tomato;
+  color: white;
+  border: none;
 }
 
 .other-products {
@@ -86,4 +90,18 @@ body {
   padding: 5px;
   border-radius: 15px;
   margin: auto;
+}
+
+label {
+  display: block;
+}
+
+form {
+  width: 400px;
+  position: absolute;
+  top: 600px;
+  left: 500px;
+  border: 2px solid tomato;
+  margin-left: auto;
+  margin-right: auto;
 }
