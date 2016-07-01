@@ -99,6 +99,7 @@ ul {
 .similar-item {
   float: left;
   padding-left: 15px;
+  /*border: 2px solid hotpink;*/
 }
 
 .similar-item img {
@@ -115,7 +116,7 @@ form {
   text-transform: uppercase;
   width: 400px;
   position: absolute;
-  top: 720px;
+  top: 722px;
   left: 749px;
   /*border: 2px solid tomato;*/
   padding-left: 20px;
