@@ -92,16 +92,24 @@ ul {
   margin: auto;
 }
 
-label {
-  display: block;
-}
-
 form {
   width: 400px;
   position: absolute;
   top: 600px;
   left: 500px;
   border: 2px solid tomato;
-  margin-left: auto;
-  margin-right: auto;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  padding-left: 20px;
+}
+
+input {
+  display: block;
+  width: 200px;
+  height: 30px;
+
+}
+
+label {
+  margin: 10px;
 }
